@@ -7,7 +7,7 @@ aliases:
   - M. Amirruzzaman
 links:
   home-page: https://www.cs.kent.edu/~mamiruzz/
-  orcid: 00000-0002-2292-5798
+  orcid: 0000-0002-2292-5798
 ---
 
 I am an Associate Professor in the Department of Computer Science at West Chester University. Prior to joining WCU, I worked as a software developer for almost 10 years for several companies. I have also held the position of Assistant Professor at Kent State University.
