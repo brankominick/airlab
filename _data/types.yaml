@@ -2,6 +2,10 @@
 
 # team member roles
 
+co-director:
+  icon: fa-solid fa-microscope
+  description: Co-Director
+
 principal-investigator:
   icon: fa-solid fa-microscope
   description: Principal Investigator

@@ -1,7 +1,7 @@
 ---
 name: Md Amirruzzaman
 image: images/headshots/amiruzzaman.jpg
-role: principal-investigator
+role: co-director
 affiliation: West Chester University of Pennsylvania
 aliases:
   - M. Amirruzzaman

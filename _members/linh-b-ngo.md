@@ -1,7 +1,7 @@
 ---
 name: Linh B. Ngo
 image: images/headshots/ngo.jpg
-role: principal-investigator
+role: co-director
 affiliation: West Chester University of Pennsylvania
 aliases:
   - L. B. Ngo
