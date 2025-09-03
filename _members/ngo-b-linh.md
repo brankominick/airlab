@@ -8,6 +8,7 @@ aliases:
 links:
   home-page: https://www.cs.wcupa.edu/LNGO/
   orcid: 0000-0002-9889-2742
+  github: linhbngo
 ---
 
 I am currently an associate professor in the Computer Science Department at West Chester University of Pennsylvania. Prior to my appointment with West Chester University in 2018, I worked as a Principal Research Facilitator with Clemson University's Research Computing and Data - Engagement Team where I provided support for high-performance computing and big data processing research projects on Clemson's Palmetto Supercomputer. During academic year 2023-2024, I took one year leave of absence from West Chester University to lead Drexel University Research Computing Facility as their Director of High Performance Computing.
