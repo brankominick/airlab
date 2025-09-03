@@ -1,11 +1,11 @@
 ---
-name: Sarah Johnson
+name: Huy Nguyen
 image: images/photo.jpg
-description: Lead Programmer
-role: programmer
+description: Undergraduate (Sophomore)
+role: Research Assistant
 links:
-  email: sarah.johnson@gmail.com
-  twitter: sarahjohnson
+  home-page: https://homepage.com
+  github: tbd
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
