@@ -1,8 +1,8 @@
 ---
 name: Kadin Matotek
 image: images/headshots/kadin.jpg
-role: Undergraduate Research Assistant
-affiliation: West Chester University of Pennsylvania
+description: Undergraduate (Senior)
+role: Research Assistant
 aliases:
   - Kadin Matotek
 links:
