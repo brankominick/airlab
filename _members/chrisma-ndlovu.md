@@ -1,6 +1,6 @@
 ---
 name: Chrisma Ndlovu
-image: images/photo.jpg
+image: images/headshots/chrisma.jpg
 description: Undergraduate (Senior)
 role: Research Assistant
 links:
