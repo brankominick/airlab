@@ -5,7 +5,7 @@ description: Undergraduate (Senior)
 role: Research Assistant
 links:
   home-page: www.linkedin.com/in/chrismandlv
-  github: tbd
+  github: https://github.com/cndlovu
 ---
 
 I am Chrisma Ndlovu, a Computer Science major at West Chester University of Pennsylvania, graduating in Fall 2025. I hold a Qualys Certificate and have hands-on experience with SCAP scanning, alongside a strong foundation in software engineering, networking, and cloud security.
