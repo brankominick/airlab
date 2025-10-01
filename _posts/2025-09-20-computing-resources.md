@@ -23,7 +23,7 @@ This underutilization draws attention to a more systemic issue: In modern proces
 ### Memory Organization
 To better understand how memory management factors into performance, let's start by taking a look at how a computer organizes data. We can divide memory into two different categories: primary (internal, volatile) and secondary (external, non-volatile). The diagram below shows the different tiers of available memory, ordered by size and access time. Registers, caches, and main memory (dynamic random-access memory) fall under the primary category. They store programs and data for the processes your computer is currently running (like this webpage!) and are directly accessible to the processor. On the other hand, things like HDDs (hard drive disks) and SSDs (solid-state drives) constitute secondary memory. They are used for long-term storage, retain data even when unpowered, and are indirectly accessible to the processor through input/output operations. As you can see in the diagram, access time for secondary storage jumps to the scale of milliseconds, whereas primary storage can be accessed in nanoseconds. Importantly, it also indicates the direction of cost per bit, a monetary measurement (primary storage is more complex to physically produce). Taking these attributes into consideration, we can see that efficient design necessitates a balance between the two categories.
 
-![Memory Hierarchy Diagram](/images/other/computing-resouces/Memory-Hierarchy-Design.png "Memory Hierarchy Diagram")[^8]
+![Memory Hierarchy Diagram]({{'/images/other/computing-resouces/Memory-Hierarchy-Design.png' | relative_url}} "Memory Hierarchy Diagram")[^8]
 
 ## Software-Level Optimizations
 To pragmatically address the bottleneck of input/output operations, let's look at a couple specific ways we can better utilize the computing resources we have available: kernel fusion and gradient checkpointing[^5]. 
@@ -107,11 +107,11 @@ struct FusedOp : Node {
 
 If we parse this expression into a DAG using our minimal IR, we could represent it like this:
 
-![Before Fusion](/images/other/computing-resouces/before.png "Before Fusion")
+![Before Fusion]({{'/images/other/computing-resouces/before.png' | relative_url}} "Before Fusion")
 
 From here, we can see the relationships between each term and apply a function to recursively traverse the tree. That could transform the original graph into the following:
 
-![After Fusion](/images/other/computing-resouces/after.png "After Fusion")
+![After Fusion]({{'/images/other/computing-resouces/after.png' | relative_url}} "After Fusion")
 
  Implementing this practice in a compiler removes the need to manually apply it to all operations and allows for further optimizations at a smaller level.
 
