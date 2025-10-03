@@ -5,12 +5,18 @@ author: brian-kominick
 tags: ai, energy, resources
 ---
 
+<!-- excerpt start -->
+"0.38–0.60 billion cubic meters of that water will be evaporated or consumed. To contextualize this measurement for a WCU student, the lower end of that range is greater than total amount of drinking water distributed in Philadelphia for a year."
+<!-- excerpt end -->
 
 ## Introduction
 If you follow discourse around artificial intelligence and LLMs (large language models), chances are, you've heard claims about their enormous resource demands (If you haven't, see below!). Let's take a close look at some of those claims and how we can address worries surrounding resource consumption. Since a wide variety of factors come together to create and power LLMs, we'll limit the scope of this post to two big categories: energy and water. After some background on these inputs, we'll explore methods of reducing consumption, with a focus on current technical advancements in software before ending with some ideas for further contribution. 
 
 ### Water Usage
-Often overlooked, water plays a crucial role in facilitating cloud infrastructure and thus our modern AI applications. Projections for the global water withdrawal for AI usage in 2027 range from 4.2–6.6 billion cubic meters, about half the water withdrawal of the U.K. 0.38–0.60 billion cubic meters of that water will be evaporated or consumed[^1]. To contextualize this measurement for a WCU student, the lower end of that range is a higher volume than total amount of drinking water distributed in Philadelphia for a year[^2]. Furthermore, aggressive projections for AI water withdrawal in the U.S. alone for the year 2028 exceed the 2027 global estimates[^1][^3].
+Often overlooked, water plays a crucial role in facilitating cloud infrastructure and thus our modern AI applications. Projections for the global water withdrawal for AI usage in 2027 range from 4.2–6.6 billion cubic meters, about half the water withdrawal of the U.K. 0.38–0.60 billion cubic meters of that water will be evaporated or consumed[^1]. To contextualize this measurement for a WCU student, the lower end of that range is greater than total amount of drinking water distributed in Philadelphia for a year[^2]. Furthermore, aggressive projections for AI water withdrawal in the U.S. alone for the year 2028 exceed the 2027 global estimates[^1][^3].
+
+![GPT-3 Water Consumption Footprint]({{'/images/other/computing-resouces/gpt3WaterFootprint.png' | relative_url}} "GPT-3 Water Consumption Footprint")[^1]
+*Estimate of GPT-3's average operational water consumption footprint. '*' denotes data centers under construction as of July 2023.*
 
 ### Energy Usage
 Water and energy usage are deeply interconnected, so we'll turn to that next. To best understand the relation between the two, let's look at the electricity projections for the same years. Estimates for AI's global electricity usage in 2027 range from 85–134TWh[^1]. To provide another local comparison, the bottom of that range is 5 times more energy than all of Philadelphia county consumed in 2024[^4]. The same study used to forecast the 2028 U.S. water withdrawal figure places the country's AI electricity consumption for the year at a range of 150–300TWh[^1][^3]. To narrow the context and provide insight into a particular operation, the GPUs that trained GPT-3 used rivaled the monthly consumption of about 1,450 U.S. homes[^5]. Regardless of whether you focus on the lower or upper bound of estimations, these figures underscore the colossal scale of what goes on behind the scenes of some of today's most well known apps. Let's see what kind of advances in software efficiency might mitigate things. 
